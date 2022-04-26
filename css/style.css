@@ -106,15 +106,27 @@ section{
     font-size: 0;
 }
 /* pour les articles */
-section h2{
-    background-color: transparent;
+section h1{
+    font-family: 'Bebas Neue';
+    font-style: italic;
+    letter-spacing: 0.500rem;
     font-size: initial;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 2.6rem;
     text-transform: uppercase;
     font-weight: 600;
-    background-color: rgba(255,255,255,0.8);
+    margin-bottom: .8rem;
+    line-height: 4.5rem;
+}
+section h2{
+    font-size: initial;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    
+    font-weight: 600;
     margin-bottom: .8rem;
     line-height: 4.5rem;
 }
@@ -122,7 +134,7 @@ section h2{
 section article{
     display: inline-block;
     width: calc(100% / 4 - .1rem);
-    
+
     text-align: center;
     margin-right: .1rem;
     
@@ -141,7 +153,9 @@ section article p{
     font-size: initial;
     line-height: 2.6rem;
     margin: 0;
-    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    
+    background-color: rgb(255, 255, 255);
 }
 
 section article h2{
@@ -149,11 +163,12 @@ section article h2{
     font-family: 'Bebas Neue';
     line-height: 2.6rem;
     margin: 0;
-    background-color: rgba(255,255,255,0.8);
 }
 /* arriere plan gallery */
 section:nth-of-type(2){
     background: #222;
+    border-radius: 5px;
+    border: solid #920909 2px;
 }
 /**/
 section:nth-of-type(2) ul{
