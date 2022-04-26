@@ -4,7 +4,9 @@ Dans le cadre de mes etudes, je vais ajouter au fur a mesure differents projet s
 
 
 ## Projet Portefolio
+Probleme a regler pour plus tard, mais la page se met a jour uniquement avec Internet Explorer
 [voir la page](https://lucas93220.github.io/new_portefolio/)
+
 
 Bonjour voici un projet d'un portefolio que j'ai réalisé
 sous la direction de Mr Militello.
