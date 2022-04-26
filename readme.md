@@ -13,7 +13,7 @@ Ce projet cinema a été fait en Mai 2022.
 
 ## Charte graphique 
 
-![Palette](asset/portefolio.PNG)
+![Palette](asset/palette.PNG)
 
 ## Charte typographique
 
