@@ -134,7 +134,7 @@ section h2{
 section article{
     display: inline-block;
     width: calc(100% / 4 - .1rem);
-
+    margin-bottom: 2rem;
     text-align: center;
     margin-right: .1rem;
     
@@ -150,12 +150,15 @@ section article .fa{
     
 }
 section article p{
-    font-size: initial;
+    font-size:small;
     line-height: 2.6rem;
-    margin: 0;
+    margin: 1rem;
+    color: #fff;
+    text-align: justify;
+    border: solid #920909 2px;
+    font-family: 'Bebas Neue';
     border-radius: 5px;
-    
-    background-color: rgb(255, 255, 255);
+    background-color: #222;
 }
 
 section article h2{
@@ -281,6 +284,19 @@ footer .phone h5, footer .mail h5{
     line-height: 3.5rem;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile */
 @media screen and (max-width: 70rem){
     header{
