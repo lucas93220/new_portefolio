@@ -155,6 +155,7 @@ section article p{
     text-align: justify;
     border: solid #bd3a3a 2px;
     padding: 0.5rem;
+    margin: 0.5rem;
     font-family: 'Bebas Neue';
     border-radius: 5px;
     background-color: #222;
