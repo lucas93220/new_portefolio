@@ -322,12 +322,13 @@ footer .phone h5, footer .mail h5{
 /* mobile */
 @media screen and (max-width: 70rem){
     header{
-        position: initial;
+        position: sticky;
         width: auto;
     }
     header ul, nav, header nav ul{
         display: block;
         width: auto;
+        
         
     }
     section h2{
@@ -340,11 +341,13 @@ footer .phone h5, footer .mail h5{
         font-size: 1.6rem;
         padding: .5rem;
         width: 100%;
+        
     }
     nav ul li{
         display: inline-block;
         width: calc(100% / 3);
         line-height: 4.6rem;
+        
     }
     nav ul li a{
         padding: 0;
@@ -355,7 +358,6 @@ footer .phone h5, footer .mail h5{
    /* article */
    section article{
     top: 0;
-    position: sticky;
     display: block;
     width: auto;
     margin-bottom: 1rem;
