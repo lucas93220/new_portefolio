@@ -37,7 +37,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #222;
+    background-color: #1d1c1c;
     
     font-size: 0;
     z-index: 2;
@@ -158,7 +158,7 @@ section article p{
     margin: 0.5rem;
     font-family: 'Bebas Neue';
     border-radius: 5px;
-    background-color: #222;
+    background-color: #1d1c1c;
 }
 
 section article h3{
@@ -168,7 +168,7 @@ section article h3{
 }
 /* conteneur des projets */
 section:nth-of-type(2){
-    background: #222;
+    background: #1d1c1c;
     border-radius: 5px;
     border: solid #dd0808 2px;
 }
@@ -212,8 +212,8 @@ section:nth-of-type(2) figcaption{
 
 /*Titre sur l image*/
 section:nth-of-type(2) figcaption h4{
-    line-height: 3.6rem;
-    font-size: large;
+    line-height: 4.6rem;
+    font-size:x-large;
 
 }
 
