@@ -173,7 +173,6 @@ section:nth-of-type(2){
     border: solid #dd0808 2px;
 }
 
-
 section:nth-of-type(2) ul{
     font-size: 0;
     padding: .2rem 0 0 .2rem;
