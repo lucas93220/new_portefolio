@@ -97,9 +97,7 @@ main{
     background: url("https://framapiaf.s3.framasoft.org/framapiaf/media_attachments/files/000/054/932/original/36f955e963a448e6.jpg") no-repeat fixed center center / cover;
     
 }
-main, footer{
-    min-height: 100vh;
-}
+
 section{
     max-width: 100rem;
     margin: 0 auto 1rem;
@@ -267,7 +265,7 @@ section:nth-of-type(2) article{
 }
 /*Titre + texte dans le footer*/
 footer{
-    padding: 6.0rem 0 0 0;
+    padding: 4rem;
     text-align: center;
     
     
