@@ -83,8 +83,8 @@ nav ul li{
     text-align: center;
 }
 nav ul li:hover a{
-    background: #fff;
-    color: #222;
+    background: rgb(41, 41, 41);
+    color: rgb(231, 229, 229);
 }
 nav ul li a{
     display: block;
