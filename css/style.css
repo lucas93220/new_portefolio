@@ -333,9 +333,7 @@ footer .phone h5, footer .mail h5{
         
         
     }
-    section h2{
-        display: none;
-    }
+
    
     nav ul li a{
         display: block;
@@ -356,6 +354,9 @@ footer .phone h5, footer .mail h5{
     }
    main{
        margin: 0 1%;
+   }
+   h3{
+    font-size: 1.1rem;
    }
    /* article */
    section article{
@@ -378,6 +379,9 @@ footer .phone h5, footer .mail h5{
         background-color: #222;
         padding: 1rem;
         
+    }
+    section:nth-of-type(2) figure img{
+        height: 100px;
     }
  
     /* footer */
