@@ -182,7 +182,7 @@ section:nth-of-type(2) ul{
 }
 section:nth-of-type(2) ul li{
     display: inline-block;
-    width: calc(100% / 3 - .2rem);
+    width: calc(100% / 4 - .2rem);
     font-size: 1.6rem;
     color: #fff;
     
@@ -337,7 +337,14 @@ footer .phone h5, footer .mail h5{
         
         
     }
+    
+    .fa, .fas{
+        display: none;
+    }
 
+    section article .fa{
+        display: none;
+    }
    
     nav ul li a{
         display: block;
@@ -371,11 +378,12 @@ footer .phone h5, footer .mail h5{
   
    
    }
+   section h2{
+    padding: 2rem;
+   }
    section article h2{
     display: block;
     
-    
-
    }
     section:nth-of-type(2) article{
         display: block;
