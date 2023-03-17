@@ -12,7 +12,6 @@ h1,h2,h3,h5,p,figure,ul{
     padding: 0;
     list-style: none;
 }
-
 :root{
     
     --color-default: #222;
