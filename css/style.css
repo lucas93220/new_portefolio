@@ -97,8 +97,7 @@ nav ul li a{
 main{
     margin-top: 6rem;
     padding: 6rem 0;
-    background: url("https://framapiaf.s3.framasoft.org/framapiaf/media_attachments/files/000/054/932/original/36f955e963a448e6.jpg") no-repeat fixed center center / cover;
-    
+    background: linear-gradient(to bottom right, black, rgb(61, 61, 61));
 }
 
 section{
