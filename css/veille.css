@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap%27');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h5,p,figure,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:root{
+    
+    --color-default: #222;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+button{
+    border: 0;
+    padding: 0;
+    font-size: inherit;
+    background-color: transparent;
+  
+}
+*{
+    box-sizing: border-box;
+}
+/* theme */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1d1c1c;
+    
+    font-size: 0;
+    z-index: 2;
+}
+
+
+header .main-title {
+    letter-spacing: 0.750rem;
+    color: #d81010;
+    font-weight: 600;
+    font-family: 'Bebas Neue';
+    text-align: center; 
+    width: 100%; 
+  }
+h1{
+    font-size: xx-large;
+}
+
+
+
+
+header li{
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+header ul li {
+    display: inline-block;
+  }
+  
+header ul li a {
+    color: #fff;
+    font-weight: 200;
+    transition: all .5s ease-in-out;
+    font-family: 'Bebas Neue';
+    display: block;
+    padding: 1rem;
+    text-align: center;
+  }
+
+body{
+    margin-top: 10rem;
+    padding: 6rem 0;
+    background: linear-gradient(to bottom right, black, rgb(61, 61, 61));
+}
+
+section p {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 2.6rem;
+}
