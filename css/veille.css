@@ -2,6 +2,8 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    background: linear-gradient(to bottom right, black, rgb(61, 61, 61));
+
 }
 body{
     font: 1.6rem 'Open Sans', sans-serif;
@@ -81,14 +83,68 @@ header ul li a {
     text-align: center;
   }
 
-body{
+section{
     margin-top: 10rem;
     padding: 6rem 0;
     background: linear-gradient(to bottom right, black, rgb(61, 61, 61));
+
 }
 
 section p {
+    margin-left: 2rem;
     color: #fff;
     font-family: 'Bebas Neue';
     font-size: 2.6rem;
+}
+
+section img {
+    max-width: 100%;
+    width: 35%;
+    border-radius: 5px;
+    margin-left: 3rem;
+}
+
+footer{
+    padding: 4rem;
+    text-align: center;
+    background-color: #fff;
+    
+    
+}
+footer h2, footer p{
+    position: relative;
+    font-size: initial;
+    margin-top: 1.5rem;
+    
+}
+footer h2{
+    font-size: 2.6rem;
+    font-family: 'Bebas Neue';
+    
+}
+footer h2::before{
+    position: absolute;
+    content: "";
+    width: 10rem;
+    border-bottom: solid .1rem rgb(139, 138, 138);
+    z-index: 4;
+    bottom: -.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+}
+
+/*telephone et mail dans le footer*/
+footer .phone, footer .mail{
+    display: inline-block;
+    width: 80rem;
+    font-size: initial;
+    background-color: #fff; 
+}
+footer .phone h5, footer .mail h5{
+    font-size: initial;
+    background: #fff;
+    line-height: 3.5rem;
+    
 }
